@@ -12,7 +12,7 @@
 - Automatically updates Apache’s `httpd.conf`
 - Automatically updates CLI `$PATH` in `.zshrc`
 - Creates backup of all modified config files
-- ⚙Handles both `php_module` and `php7_module` loading
+- Handles both `php_module` and `php7_module` loading
 - Optimized for `/opt/homebrew` on macOS (Intel & Apple Silicon)
 - Cleans old `opcache` settings to avoid conflicts
   
