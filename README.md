@@ -1,23 +1,23 @@
-# 🧪 sphp – Switch PHP Versions on macOS (Apache + CLI) with One Command
+# sphp – Switch PHP Versions on macOS (Apache + CLI) with One Command
 
 `sphp` is a lightweight CLI utility to instantly switch PHP versions (CLI + Apache) on macOS with a single command. It supports PHP 7.2 to 8.3 (and upcoming 8.4, 8.5), and is perfect for devs, agencies, and anyone managing multiple PHP projects.
 
-> ⚡️ Works flawlessly with Homebrew and Apple Silicon (M1, M2, M3). Compatible with Apache via `httpd.conf` and CLI via `$PATH`.
+> ⚡Works flawlessly with Homebrew and Apple Silicon (M1, M2, M3). Compatible with Apache via `httpd.conf` and CLI via `$PATH`.
 
 ---
-## ✅ Features
+## Features
 
-- 🔄 One-command switch between PHP versions
-- 📦 Auto-installs missing versions with `brew install php@X.Y`
-- 🔧 Automatically updates Apache’s `httpd.conf`
-- 💻 Automatically updates CLI `$PATH` in `.zshrc`
-- 🛡️ Creates backup of all modified config files
-- ⚙️ Handles both `php_module` and `php7_module` loading
-- 🍎 Optimized for `/opt/homebrew` on macOS (Intel & Apple Silicon)
-- 🔁 Cleans old `opcache` settings to avoid conflicts
+- One-command switch between PHP versions
+- Auto-installs missing versions with `brew install php@X.Y`
+- Automatically updates Apache’s `httpd.conf`
+- Automatically updates CLI `$PATH` in `.zshrc`
+- Creates backup of all modified config files
+- ⚙Handles both `php_module` and `php7_module` loading
+- Optimized for `/opt/homebrew` on macOS (Intel & Apple Silicon)
+- Cleans old `opcache` settings to avoid conflicts
   
 ---
-## 📦 Installation
+## Installation
 
 ```bash
 brew tap ThomasDanilo96/sphp
@@ -31,7 +31,7 @@ sphp 8.2
 Supports: 7.2, 7.3, 7.4, 8.0, 8.1, 8.2, 8.3
 
 ---
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Step 1: Tap and install
@@ -41,10 +41,10 @@ brew install sphp
 # Step 2: Switch version
 sphp 7.4
 ```
-Done ✅
+Done
 
 ---
-### 🧠 How It Works
+### How It Works
 
 `sphp` performs the following:
 
@@ -78,7 +78,7 @@ switch php version macos homebrew
 - how to change php.ini mac
   
 ---
-## 🧰 Requirements
+## Requirements
 
 - macOS (Intel or Apple Silicon)
 - Apache installed via Homebrew
@@ -87,7 +87,7 @@ switch php version macos homebrew
 - Using `/opt/homebrew` as Homebrew prefix
   
 ---
-## 🔐 Safe by Design
+## Safe by Design
 
 Backs up before doing any change:
 
@@ -101,7 +101,7 @@ Also:
 - Works even if version was never installed (will install it)
   
 ---
-# 🛠️ Supported Versions
+# Supported Versions
 
 | PHP Version | Supported  | Auto Install |
 | ----------- | ---------- | ------------ |
@@ -125,16 +125,16 @@ Versions provided via [shivammathur/homebrew-php](https://github.com/shivammathu
 - [shivammathur/homebrew-php](https://github.com/shivammathur/homebrew-php)
   
 ---
-## 📜 License
+## License
 MIT – use it freely, improve it, share it.
 
 ---
-## 👨‍💻 Author
+## Author
 Danilo D’Antoni
 GitHub → [@ThomasDanilo96](https://github.com/ThomasDanilo96)
 
 ---
-## 🙌 Contribute
+## Contribute
 Pull requests welcome! Open an issue or PR if you’ve got an idea or fix.
 
 
