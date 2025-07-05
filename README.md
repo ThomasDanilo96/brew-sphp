@@ -66,7 +66,7 @@ Backups saved under:
 ```
 
 ---
-## 💡 SEO Keywords (to index highly in Google)
+## SEO Keywords (to index highly in Google)
 switch php version macos homebrew
 
 - change php cli version apache mac apple silicon
