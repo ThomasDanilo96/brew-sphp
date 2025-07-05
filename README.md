@@ -24,7 +24,12 @@
 ```bash
 brew tap ThomasDanilo96/sphp
 brew install sphp
+```
 
 Then switch PHP version (Apache + CLI):
 ```bash
 sphp 8.2
+```
+Supports: 7.2, 7.3, 7.4, 8.0, 8.1, 8.2, 8.3
+
+---
