@@ -131,6 +131,7 @@ MIT – use it freely, improve it, share it.
 ---
 ## Author
 [Danilo D’Antoni](https://www.danilodantoni.it/)
+
 GitHub → [@ThomasDanilo96](https://github.com/ThomasDanilo96)
 
 ---
